@@ -1,0 +1,87 @@
+.main-container {
+  width: 100%;
+  height: 70vh;
+  background: #224f34;
+}
+.first-half {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 8rem;
+}
+
+h2 {
+  color: #fff;
+  font-family: Elephant;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 4rem;
+}
+.social-media {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.icons {
+  display: flex;
+  gap: 3rem;
+}
+
+.column-a {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+.shop {
+  font-weight: bold;
+}
+.column-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.column-ul li {
+  list-style: none;
+}
+.stay-up {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.input {
+  width: 30rem;
+  padding: 1rem 2rem;
+  border: 2px solid #a3f3be;
+  color: #a3f3be;
+}
+.btn {
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+  background: #a3f3be;
+  border: 2px solid #a3f3be;
+  cursor: pointer;
+}
+.last-details {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15rem;
+}
+.line {
+  width: 65%;
+  height: 2px;
+  background-color: #a3f3be;
+  align-self: center;
+}
+.last-ul li {
+  list-style: none;
+}
+.last-ul a {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+.last-ul {
+  display: flex;
+  gap: 2.5rem;
+}

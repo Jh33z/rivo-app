@@ -1,0 +1,16 @@
+<div class="main-container">
+  <h3>Designer Clothes For You</h3>
+  <p class="sub-title">
+    Immerse yourself in the world of luxury fashion with our meticulously
+    crafted designer clothes!
+  </p>
+  <div class="img-container">
+    <div class="wrapper" *ngFor="let data of datas">
+      <img [src]="data.img" alt="lady" class="img" />
+      <p class="content">{{ data.content }}</p>
+      <p class="description">
+        {{ data.description }}
+      </p>
+    </div>
+  </div>
+</div>

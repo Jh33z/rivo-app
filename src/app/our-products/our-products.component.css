@@ -1,0 +1,31 @@
+.main-container {
+  width: 100%;
+  margin-top: 5rem;
+}
+.title {
+  text-align: center;
+  color: #224f34;
+  font-size: 3rem;
+}
+
+ul {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #454545;
+  transition: color 0.3s ease, padding 0.3s ease, border-radius 0.3s ease,
+    background-color 0.3s ease;
+}
+a:hover {
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: rgb(187, 238, 187);
+  transform: scale(1.1);
+}

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@100&family=Noto+Sans+Vithkuqi&family=Oswald&family=Poppins&family=Roboto:wght@500&display=swap");
+.main-container {
+  width: 100%;
+  background: #c2efd4;
+  border-radius: 3px;
+  height: 60vh;
+  position: relative;
+  overflow: hidden;
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon {
+  position: absolute;
+  left: 20rem;
+  bottom: 2rem;
+}
+.cube {
+  width: 20rem;
+  height: 15rem;
+  background: rgba(223, 251, 234, 0.5);
+  position: absolute;
+  top: 22rem;
+  left: 26rem;
+}
+.img {
+  width: 35rem;
+  height: auto;
+  flex-shrink: 0;
+  margin-left: 11.5rem;
+  position: relative;
+}
+.date-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.title {
+  font-size: 4.8rem;
+  color: #224f34;
+  font-weight: bold;
+}
+.desc {
+  width: 45rem;
+  font-size: 2.4rem;
+  line-height: 1.6;
+}
+.expire-date {
+  display: flex;
+  gap: 2rem;
+}
+.date {
+  width: 7rem;
+  height: 7.5rem;
+  background: #fff;
+  text-align: center;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 2px;
+}
+.number {
+  font-family: "Poppins", sans-serif;
+  color: #224f34;
+  font-size: 2.4rem;
+}
+.expirationDay {
+  font-family: "Poppins", sans-serif;
+  color: #224f34;
+  font-size: 1.3rem;
+}
+.btn {
+  width: 16rem;
+  padding: 2rem 4rem;
+  border-radius: 3px;
+  background: #224f34;
+  box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  font-size: 1.6rem;
+  cursor: pointer;
+}

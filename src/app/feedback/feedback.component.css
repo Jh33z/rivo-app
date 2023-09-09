@@ -1,0 +1,49 @@
+.main-container {
+  width: 100%;
+  margin-top: 8rem;
+}
+h3 {
+  font-size: 4.4rem;
+  color: #224f34;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+.outer-div {
+  display: flex;
+  justify-content: space-around;
+}
+.feedbacks {
+  width: 40rem;
+  height: auto;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.feedbacks:hover {
+  background: #c2efd4;
+  transition: transform 0.3s ease;
+}
+span {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #224f34;
+}
+.author {
+  font-size: 2.4rem;
+  color: #224f34;
+}
+.fb {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  color: #6f6f6f;
+}
+.next-previous {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+}

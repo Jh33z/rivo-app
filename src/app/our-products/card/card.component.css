@@ -1,0 +1,42 @@
+.main-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+.img-div {
+  margin-top: 3rem;
+  width: 25rem;
+  height: auto;
+  background-color: rgb(235, 224, 224);
+  border-radius: 5px;
+  overflow: hidden;
+}
+img {
+  width: 24.8rem;
+  height: 30rem;
+  transition: transform 0.3s ease;
+}
+img:hover {
+  transform: scale(1.2);
+}
+.img-infos {
+  width: 25rem;
+}
+p {
+  color: #373737;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+}
+.text {
+  margin-top: 2rem;
+}
+.cost-rating {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.rating {
+  display: inline-flex;
+  gap: 5px;
+}

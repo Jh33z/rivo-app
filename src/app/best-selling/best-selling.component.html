@@ -1,0 +1,106 @@
+<div class="best-selling-main-container">
+  <h3 class="best-selling-title">Best selling</h3>
+  <p class="best-selling-text">
+    Get in on the trend with our curated selection of best-selling styles.
+  </p>
+  <div class="outer-div">
+    <div class="image-flex">
+      <div
+        class="best-selling-inner-container"
+        *ngFor="let modelInOutfit of modelInOutfits.slice(0, 3)"
+      >
+        <div class="img-div">
+          <img [src]="modelInOutfit.img" alt="ladyInFit" class="img" />
+        </div>
+        <div class="img-infos">
+          <p>{{ modelInOutfit.content }}</p>
+          <div class="cost-rating">
+            <p class="price"><span>$</span>{{ modelInOutfit.price }}</p>
+            <p class="rating">
+              {{ modelInOutfit.rating }}
+              <span class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_1_120)">
+                    <path
+                      d="M19.4672 23.3152L12.0002 17.8272L4.53323 23.3152L7.40023 14.4522L-0.0627747 8.99922H9.15123L12.0002 0.121216L14.8492 8.99922H24.0622L16.6002 14.4522L19.4672 23.3152Z"
+                      fill="#F5D426"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_120">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="show-more-div" *ngIf="showAll">
+      <div
+        class="best-selling-inner-container"
+        *ngFor="
+          let modelInOutfit of modelInOutfits.slice(3, modelInOutfits.length)
+        "
+      >
+        <div class="img-div">
+          <img [src]="modelInOutfit.img" alt="ladyInFit" class="img" />
+        </div>
+        <div class="img-infos">
+          <p>{{ modelInOutfit.content }}</p>
+          <div class="cost-rating">
+            <p class="price"><span>$</span>{{ modelInOutfit.price }}</p>
+            <p class="rating">
+              {{ modelInOutfit.rating }}
+              <span class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_1_120)">
+                    <path
+                      d="M19.4672 23.3152L12.0002 17.8272L4.53323 23.3152L7.40023 14.4522L-0.0627747 8.99922H9.15123L12.0002 0.121216L14.8492 8.99922H24.0622L16.6002 14.4522L19.4672 23.3152Z"
+                      fill="#F5D426"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_120">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btn-div">
+      <button class="btn" (click)="displayAll()">
+        {{ showAll ? "See less" : "See all" }}
+        <span
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="16"
+            viewBox="0 0 24 16"
+            fill="none"
+          >
+            <path
+              d="M23.7071 8.70711C24.0976 8.31658 24.0976 7.68342 23.7071 7.29289L17.3431 0.928932C16.9526 0.538408 16.3195 0.538408 15.9289 0.928932C15.5384 1.31946 15.5384 1.95262 15.9289 2.34315L21.5858 8L15.9289 13.6569C15.5384 14.0474 15.5384 14.6805 15.9289 15.0711C16.3195 15.4616 16.9526 15.4616 17.3431 15.0711L23.7071 8.70711ZM0 9L23 9V7L0 7L0 9Z"
+              fill="#224F34"/></svg></span>
+      </button>
+    </div>
+  </div>
+</div>
